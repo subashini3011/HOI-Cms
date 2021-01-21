@@ -1,0 +1,22 @@
+.form-buttons {
+    >button {
+        height: 4.4rem;
+        width: 11.7rem;
+        border-radius: 2px;
+        font-size: 1.8rem;
+        font-family: $font-name-unisans-semibold;
+        font-weight: 600;
+        color: $color-black-dark;
+        text-transform: uppercase;
+    }
+    >button:first-child {
+        background-color:rgba(235, 191, 85, 0.6);
+        border: none;
+    }
+    >button:last-child {
+        margin-left: 1.2rem;
+        >* {
+            opacity: 0.5; 
+        }
+    }
+}

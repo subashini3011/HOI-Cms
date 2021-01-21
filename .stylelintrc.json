@@ -1,0 +1,44 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "block-no-empty": null,
+    "color-named": "always-where-possible",
+    "color-no-invalid-hex": true,
+    "color-no-hex": true,
+    "string-quotes": "single",
+    "function-url-quotes": "always",
+    "selector-attribute-quotes": "always",
+    "comment-empty-line-before": [
+      "always",
+      {
+        "ignore": ["stylelint-commands", "after-comment"]
+      }
+    ],
+    "declaration-colon-space-after": "always",
+    "indentation": [
+      2,
+      {
+        "except": ["value"]
+      }
+    ],
+    "max-empty-lines": 2,
+    "rule-empty-line-before": [
+      "always",
+      {
+        "except": ["first-nested"],
+        "ignore": ["after-comment"]
+      }
+    ],
+    "declaration-property-unit-whitelist": {
+      "font-size": ["rem", "px"],
+      "/^animation/": ["s"]
+    },
+    "function-url-scheme-blacklist": ["ftp", "/^http(s)?/", "/^file/"],
+    "at-rule-no-vendor-prefix": true,
+    "selector-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true,
+    "function-calc-no-invalid": true,
+    "declaration-block-no-duplicate-properties": true,
+    "no-invalid-double-slash-comments": true
+  }
+}

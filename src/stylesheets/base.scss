@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%; // 1 rem = 10px; 10px/16px = 62.5%
+}
+
+body {
+    // background-color: $color-black-primary;   
+}
+
+/* breakpoints 
+  320px - 720px - For mobile.
+  721px - 1023px - For tab.
+  1024px - 1440px - For Desktop.
+*/
+@media all and (min-width: 1600px) { 
+    // define your rem value
+}  
+
+@media all and (min-width: 1200px) { 
+    // define your rem value
+    font-size: 62.5%; // 1 rem = 10px; 10px/16px = 62.5%
+} 
+
+@media all and (min-width: 992px) { 
+    // define your rem value
+} 
+
+@media all and (min-width: 768px) { 
+    // define your rem value
+} 
+
+@media all and (min-width: 576px) {    
+      //  font-size: 93.75%; // 1 rem = 15px; 15px/16px = 93.75%
+}
+
+@media all and (max-width: 575px) { 
+    // define your rem value
+}     
+
+/* breakpoints - retina */
+@media(-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:3/2),(min-resolution:1.5dppx) { 
+    // define your rem value
+}

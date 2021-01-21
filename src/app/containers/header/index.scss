@@ -1,0 +1,191 @@
+.header {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  z-index: 200;
+  &--left {
+    margin-left: 3rem;
+    &__dropdown {
+      display: inline;
+      cursor: pointer;
+      > span {
+        font-size: 1.4rem;
+        font-family: $font-name-unisans-semibold;
+        letter-spacing: 0.5px;
+        color: $color-black-light;
+        font-weight: 600;
+        padding-right: 1.6rem;
+      }
+    }
+    &__select__airport {
+      font-size: 1.4rem;
+      font-family: $font-name-unisans-semibold;
+      letter-spacing: 0.5px;
+      color: $color-black-light;
+      font-weight: 600;
+      padding-right: 1.6rem;
+      .ant-select-selection {
+        border: none;
+        &:focus {
+          border: none;
+          box-shadow: none;
+        }
+      }
+    }
+    &__text {
+      // margin-left: 8rem;
+      margin-right: 0.7rem;
+      font-family: $font-name-unisans-regular;
+      font-size: 14px;
+      color: #707595;
+    }
+    &__select__time {
+      font-size: 1rem !important;
+      font-family: $font-name-unisans-semibold;
+      letter-spacing: 0.5px;
+      color: $color-black-light;
+      font-weight: 600;
+      padding-right: 1.6rem;
+      width: max-content;
+      &__item {
+        font-size: 1rem !important;
+        font-family: $font-name-unisans-semibold;
+        letter-spacing: 0.5px;
+        color: $color-black-light;
+        font-weight: 600;
+        padding-right: 1.6rem;
+      }
+      .ant-select-selection {
+        border-radius: 1.1rem !important;
+      }
+    }
+  }
+  &--right {
+    margin-right: 1.5rem;
+    &__icon {
+      padding: 0.8rem;
+      background-color: $color-grey-primary;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    &__dropdown {
+      display: inline;
+      background-color: $color-grey-primary;
+      border-radius: 1.5rem;
+      padding: 0.8rem 0;
+      margin: 1.2rem;
+      // cursor: pointer;
+      > img {
+        width: 2.6rem;
+        height: 2.6rem;
+        border-radius: 50%;
+      }
+      > span {
+        font-family: $font-name-unisans-regular;
+        font-size: 1.2rem;
+        letter-spacing: 0.4px;
+        color: $color-black-light;
+        padding-right: 3.5rem;
+        padding-left: 0.8rem;
+      }
+      > i {
+        padding-right: 1rem;
+      }
+    }
+  }
+}
+.customcalender {
+  .ant-calendar-picker-input.ant-input-sm {
+    border-radius: 1.1rem;
+    font-size: 1rem !important;
+    font-family: $font-name-unisans-semibold;
+    letter-spacing: 0.5px;
+    color: $color-black-light !important;
+    font-weight: 600;
+    padding-right: 1.6rem;
+  }
+  input[type='text'] {
+    color: $color-black-light !important;
+  }
+  &__dropdown {
+    position: relative;
+    right: 4rem;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 1.1rem;
+  }
+}
+.ant-select-dropdown-menu-item-selected,
+.ant-select-dropdown-menu-item-selected:hover {
+  opacity: 1;
+  background-color: #f3d999 !important;
+  color: #444444;
+}
+.custom-calender {
+  display: flex;
+  line-height: 3.5rem;
+  &__header {
+    // height: 5.7rem;
+    // line-height: 5rem;
+    &__text {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #222222;
+    }
+    &__left {
+      float: right;
+    }
+    &__resetbtn {
+      margin-right: 1rem;
+      border: none;
+    }
+    &__searchbtn {
+      margin-right: 3rem;
+    }
+  }
+  .ant-calendar-picker-input.ant-input-sm {
+    width: 9.8rem;
+    background-color: #f5f5f5;
+    border: none;
+    height: 3.5rem;
+  }
+  .anticon-close-circle {
+    right: 2rem !important;
+  }
+  .ant-time-picker-small .ant-time-picker-input,
+  .ant-time-picker {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #f5f5f5;
+    border: none;
+    color: #707595;
+  }
+
+  .ant-time-picker-icon {
+    display: none;
+  }
+  .ant-calendar-picker-icon {
+    display: none !important;
+  }
+  .ant-calendar-picker-container {
+    // top: 4.4rem !important;
+  }
+  .ant-popover-arrow {
+    display: none;
+  }
+  .ant-popover-placement-top {
+    top: 5rem !important;
+  }
+  .ant-calendar-input-wrap,
+  .ant-time-picker-panel-input-wrap {
+    display: none;
+  }
+  .a {
+    .ant-calendar-picker-container,
+    .ant-time-picker-panel {
+      top: 16rem !important;
+    }
+  }
+}

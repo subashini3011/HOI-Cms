@@ -1,0 +1,48 @@
+.update-store {
+  // margin-top:2rem;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  padding: 0 2rem 0 1.9rem;
+  &__table-header {
+    padding: 2.2rem 2rem 2.2rem 1.7rem;
+  }
+  th {
+    font-family: $font-filename-helveticaneue-medium;
+    font-size: $font-size-table-header;
+    font-weight: 500;
+    color: #222222 !important;
+  }
+  td {
+    font-family: $font-filename-helveticaneue-regular;
+    font-size: $font-size-table-data;
+    color: #707595;
+    font-weight: 500;
+    background-color: #ffffff;
+  }
+  &__pagination {
+    // opacity: 0.4;
+    font-family: $font-filename-helveticaneue-medium;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #222222;
+    &__text {
+      opacity: 0.6;
+      font-family: $font-filename-helveticaneue-regular;
+      font-size: 1.4rem;
+      color: #707595;
+      margin-left: 0.6rem;
+    }
+  }
+
+  &__table {
+    &__status {
+      &__active {
+        color: #00c07e;
+      }
+      &__inactive {
+        color: #a4a4a4;
+      }
+    }
+  }
+}

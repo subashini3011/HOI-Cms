@@ -1,0 +1,41 @@
+.login {
+  &__formwrapper {
+    // background-image: url(../../../assets/images/login-bg-img.png);
+    height: 100vh;
+    background-size: cover;
+    &__form {
+      width: 40%;
+      padding: 6rem 6.1rem 4.2rem 4.9rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #ffffff;
+      border-radius: 4px;
+      input {
+        height: 5.4rem;
+      }
+    }
+  }
+  &__logo {
+    font-size: 2.6rem;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: #e0ab31;
+  }
+
+  &__text {
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #222222;
+    margin-top: 3.5rem;
+    margin-bottom: 1.2rem;
+  }
+  &__formtext {
+    margin-bottom: 0.7rem;
+    letter-spacing: 1px;
+    color: #222222;
+    line-height: normal;
+  }
+}

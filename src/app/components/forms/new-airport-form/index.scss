@@ -1,0 +1,101 @@
+.new-airport {
+    background-color: $color-white-primary;
+
+    &--header {
+        padding: 2.4rem;
+    }
+
+    &--form {
+        padding: 0 8rem 3.4rem 8rem;
+        &--item {
+            &__status {
+                // height: 10.9rem;
+                display: flex;
+                align-items: center;
+                // padding-top: 4.4rem;
+                &__text {
+                    font-family: $font-name-helveticaneue-medium;
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    color: $color-black-ternary;
+                    padding-right: 1rem;
+                    &__radio {
+                        .ant-radio-inner {
+                            border-width: 0.4rem;
+                        }
+                        ::after{                            
+                            display: none;                            
+                        }
+                    }
+                    &__active {
+                        .ant-radio-checked .ant-radio-inner {
+                            border-color: #09bb5b;
+                        }                        
+                    }
+                    &__inactive {
+                        .ant-radio-checked .ant-radio-inner {
+                            border-color: red;
+                        }                        
+                    }
+                }
+            }        
+            // height: 10.9rem;
+            label {
+                font-family: $font-name-helveticaneue-medium;
+                font-size: 1.4rem;
+                font-weight: 500;
+                color: $color-black-ternary;
+            }
+            input {
+                height: 4.4rem;
+                font-size: 1.4rem;
+                font-weight: 500;
+                // color: $color-black-ternary;
+                color: rgba(0, 0, 0, 0.65);
+            }
+        
+            .ant-select-selection{
+                height: 4.4rem;            
+            }
+
+            .ant-select-selection__rendered {
+                line-height: 4.4rem;
+            }
+
+            .ant-upload-select {
+                width:100%;
+                button {
+                    height: 4.4rem;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }    
+
+            &__upload-text {
+                opacity: 0.6;
+                font-family: $font-name-helveticaneue-medium;
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            &__upload-button {
+                font-family: $font-name-unisans-semibold;
+                font-size: 1.6rem;
+                font-weight: 600;
+                color: $color-black-dark;
+                height: 4.4rem;
+                padding: 1rem 2.8rem;
+                background-color: rgba(235, 191, 85, 0.6)!important;
+                margin-right: -1.5rem;
+            }
+        }
+
+        &--buttons {
+            text-align: right;
+            padding-top: 2rem;
+        }
+    }
+   
+}

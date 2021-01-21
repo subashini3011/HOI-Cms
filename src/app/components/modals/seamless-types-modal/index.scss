@@ -1,0 +1,36 @@
+.modal {
+  &__form-item {
+    width: 100%;
+  }
+  .outlet-form__item {
+    padding: 0 2rem;
+    width: 100%;
+  }
+  .new-user--form--buttons {
+    padding: 0;
+    text-align: center;
+  }
+  .ant-input-number-input {
+    height: 4.4rem !important;
+    line-height: 4.4rem;
+    width: 100% !important;
+  }
+}
+.ant-select-selection {
+  height: 4.4rem;
+}
+
+.ant-select-selection__rendered {
+  line-height: 4.4rem;
+}
+
+.ant-upload-select {
+  width: 100%;
+  button {
+    height: 4.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

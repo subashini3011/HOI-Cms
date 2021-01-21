@@ -1,0 +1,14 @@
+.reject-request-modal {
+  &__text-area {
+    resize: none;
+    // .textarea.ant-input {
+    //   resize: none;
+    // }
+  }
+  &__buttons {
+    text-align: right;
+    button {
+      margin-left: 2rem;
+    }
+  }
+}

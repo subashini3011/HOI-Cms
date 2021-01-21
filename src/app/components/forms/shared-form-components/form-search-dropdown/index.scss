@@ -1,0 +1,11 @@
+.search-dropdown {
+  .ant-select-selection--multiple > ul > li,
+  .ant-select-selection--multiple .ant-select-selection__rendered > ul > li {
+    margin-top: 0.9rem;
+  }
+
+  .ant-select-selection {
+    height: unset;
+    min-height: 4.4rem !important;
+  }
+}

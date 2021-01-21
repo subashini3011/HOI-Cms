@@ -1,0 +1,56 @@
+// font families
+
+@font-face { 
+    font-family: $font-name-opensans;
+    src: url($font-path + $font-filename-opensans) format('truetype');
+}
+
+@font-face { 
+    font-family: $font-name-opensans;
+    src: url($font-path + $font-filename-opensans) format('truetype');
+}
+
+@font-face { 
+    font-family: $font-name-unisans-regular;
+    src: url($font-path + $font-filename-unisans-regular) format('truetype');
+}
+
+@font-face { 
+    font-family: $font-name-unisans-semibold;
+    src: url($font-path + $font-filename-unisans-semibold) format('truetype');
+}
+
+@font-face { 
+    font-family: $font-name-helveticaneue-regular;
+    src: url($font-path + $font-filename-helveticaneue-regular) format('truetype');
+}
+
+@font-face { 
+    font-family: $font-name-helveticaneue-bold;
+    src: url($font-path + $font-filename-helveticaneue-bold) format('truetype');
+}
+
+@font-face { 
+    font-family: $font-name-helveticaneue-medium;
+    src: url($font-path + $font-filename-helveticaneue-medium) format('truetype');
+}
+
+.heading-primary {
+}
+
+.heading-secondary {
+}
+
+.heading-tertiary {
+    // font-size: $default-font-size;
+    // font-weight: 700;
+    // text-transform: uppercase;
+}
+
+.paragraph {
+    // font-size: $default-font-size;
+
+    // &:not(:last-child) {
+    //     margin-bottom: 3rem;
+    // }
+}

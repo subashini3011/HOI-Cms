@@ -1,0 +1,25 @@
+.table__download{
+    display: inline-block;
+    margin-right: 1.2rem;
+    button{
+        height: 2.9rem;
+        // width: 9.9rem;
+        font-size: 1.2rem;
+        line-height: 3rem;
+        border-radius: 2px;
+        img{
+            // margin-bottom: 0.3rem;
+        }
+     }
+    
+    &__text{
+        margin-left: 1rem;
+        opacity: 0.3;
+        font-weight: 600;
+        color: #444444;
+    }
+   .anticon-search{
+        opacity: 0.3;
+        color: #444444;
+    }
+}

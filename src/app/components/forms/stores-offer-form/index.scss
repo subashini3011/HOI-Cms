@@ -1,0 +1,49 @@
+.storesOffer-form {
+  // padding:  0 9.2rem 0 8.2rem;
+  background-color: $color-white-primary;
+  &__header {
+    padding: 2.6rem 2.4rem;
+  }
+  &__wrapper {
+    width: 100%;
+  }
+  &__item {
+    padding: 0 8.2rem;
+    display: inline-block;
+    width: 50%;
+  }
+  &__submit-buttons {
+    padding: 3rem 8.2rem 5.1rem 0;
+    text-align: right;
+  }
+  &__bulk-upload {
+    padding: 0 8.2rem 5.1rem;
+  }
+
+  &__buttons {
+    padding: 3rem 8.2rem 5.1rem 0;
+    text-align: right;
+  }
+
+  .ant-select-selection {
+    height: 4.4rem;
+  }
+
+  .ant-select-selection__rendered {
+    line-height: 4.4rem;
+  }
+
+  .ant-upload-select {
+    width: 100%;
+    button {
+      height: 4.4rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .ant-input {
+    height: 4.4rem;
+  }
+}

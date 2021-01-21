@@ -1,0 +1,72 @@
+// colors
+
+$color-black-primary: #1c1c1c;
+$color-black-secondary: #4a4546;
+$color-black-ternary: #222222;
+$color-black-dark: #444444;
+$color-black-light: #707595;
+
+$color-white-primary: #fff;
+$color-white-secondary: #c7c7c7;
+$color-white-ternary: #ccc;
+
+$color-yellow-primary: #ebbf55;
+
+$color-grey-primary: #eeeef4;
+
+$color-red-primary: #f00;
+
+// theme
+
+$color-crimson: #f91b0e;
+$color-pink: #ff67a1;
+$color-violet: #b700e9;
+$color-indigo: #8722ff;
+$color-blue: #0ebaf9;
+$color-forest: #00a74a;
+$color-green: #59cf00;
+$color-gold: #ffd202;
+$color-orange: #ff8706;
+
+// fonts
+
+$font-path: './assets/fonts';
+
+// font-name
+//opensans
+$font-name-opensans: 'opensans';
+$font-name-opensans-light: 'opensans-light';
+
+//unisans
+$font-name-unisans-regular: 'unisans-regular';
+$font-name-unisans-semibold: 'unisans-semibold';
+
+//helveticaneue
+$font-name-helveticaneue-regular: 'helveticaneue-regular';
+$font-name-helveticaneue-bold: 'helveticaneue-bold';
+$font-name-helveticaneue-medium: 'helveticaneue-medium';
+
+// font-file-name
+//opensans
+$font-filename-opensans: '/opensans-regular.ttf';
+$font-filename-opensans-light: '/opensans-light.ttf';
+
+//unisans
+$font-filename-unisans-regular: '/uni-sans-regular.woff';
+$font-filename-unisans-semibold: '/Uni_Sans_SemiBold.ttf';
+
+//helveticaneue
+$font-filename-helveticaneue-regular: '/HelveticaNeue-Regular.ttf';
+$font-filename-helveticaneue-bold: '/Helvetica-Neu-Bold.ttf';
+$font-filename-helveticaneue-medium: '/HelveticaNeueMedium.ttf';
+
+$font-size-default: 1.6rem;
+$font-size-heading: 1.5rem;
+$font-size-tabs: 1.4rem;
+$font-size-subtitle: 2rem;
+$font-size-login: 1.4rem; //for login page
+$font-size-table-header: 1.2rem;
+$font-size-table-data: 1.4rem;
+// images
+
+$image-path: '~images';

@@ -1,0 +1,70 @@
+.logo {
+  width: 19.4rem;
+  padding-left: 1.2rem;
+
+  > div {
+    display: flex;
+    align-items: center;
+    height: 5.2rem;
+    width: fit-content;
+    cursor: pointer;
+    > div {
+      font-family: $font-name-helveticaneue-bold;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 0.9px;
+      color: #d9d9d9;
+      padding-left: 0.6rem;
+    }
+  }
+}
+
+.horizontal-line {
+  height: 1px;
+  background: $color-white-primary;
+  opacity: 0.1;
+}
+
+.menu-item {
+  font-size: 1.6rem !important;
+  > .anticon {
+    vertical-align: -0.02rem !important;
+  }
+  &__image {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 1.3rem;
+    margin-top: -0.4rem;
+  }
+}
+
+.ant-menu-submenu-title {
+  font-size: 1.6rem !important;
+  .anticon {
+    vertical-align: -0.02rem !important;
+  }
+}
+
+.ant-menu-sub {
+  background-color: #4a4546 !important;
+  box-shadow: unset !important;
+  background: transparent !important;
+  > li {
+    padding-left: 3.1rem !important;
+  }
+}
+
+.ant-menu-item-selected {
+  > span {
+    color: #222222 !important;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .ant-menu-sub {
+    background-color: #4a4546 !important;
+    > li {
+      padding-left: 3rem !important;
+    }
+  }
+}

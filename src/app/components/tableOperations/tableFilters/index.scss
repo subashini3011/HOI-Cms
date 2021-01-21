@@ -1,0 +1,86 @@
+.table__filter {
+  display: inline-block;
+  margin-right: 1.2rem;
+  button {
+    width: 8.9rem;
+    font-size: 1.2rem;
+    // line-height: 3rem;
+    font-weight: 600;
+    // height: 2.9rem;
+    // border-radius: 2px;
+    img {
+      // margin-bottom: 0.2rem;
+    }
+  }
+  &__text {
+    opacity: 0.3;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #444444;
+    margin-left: 1rem;
+  }
+}
+.filtermodal {
+  width: 60% !important;
+  &__item {
+    text-transform: capitalize;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.9rem 2.2rem;
+    font-size: 1.6rem;
+    color: #707595;
+  }
+  .ant-modal-footer {
+    text-align: center;
+    border-top: none;
+    padding-bottom: 2.6rem;
+  }
+  &__footer {
+    &__applybutton {
+      width: 11.7rem;
+      height: 4.4rem;
+      border-radius: 2px;
+      background-color: rgba(235, 191, 85, 0.6);
+      border: none;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #444444;
+    }
+    &__cancelbutton {
+      width: 11.7rem;
+      height: 4.4rem;
+      opacity: 0.5;
+      border-radius: 2px;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #444444;
+      margin-left: 1.2rem !important;
+    }
+  }
+}
+.checkbox {
+  padding: 0 3.2rem;
+  .ant-checkbox-inner {
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-color: #444444;
+    opacity: 0.6;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-color: #ffffff;
+    &:after {
+      display: none;
+    }
+  }
+  .ant-col-xl-6,
+  .ant-col-md-8 {
+    padding-top: 1.9rem;
+    padding-bottom: 1.9rem;
+  }
+}

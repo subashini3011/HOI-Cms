@@ -1,0 +1,46 @@
+// .csv-download-option {
+//   .download-wrapper {
+//     width: 1.42rem;
+//     height: 1.42rem;
+//     // background-color: $color-blue-primary3;
+//     border-radius: 50%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     overflow: hidden;
+//     img {
+//       width: 0.71rem;
+//       height: 0.71rem;
+//     }
+//   }
+// }
+.csv-download-option {
+  // &__viewbutton {
+  //   height: 2.9rem;
+  //   border-radius: 2px;
+  //   background-color: #eeeef4;
+  //   float: right;
+  //   color: #222222;
+  //   // margin: 1.5rem 0 2.1rem 0;
+  //   margin-left: 1rem;
+  //   margin-top: 1rem;
+  // }
+  &__viewbutton-text {
+    opacity: 0.7;
+    font-family: $font-name-helveticaneue-medium;
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 2.9rem;
+    border-radius: 2px;
+    background-color: #eeeef4;
+    float: right;
+    color: #222222;
+    line-height: 2.9rem;
+    padding: 0 1.5rem;
+    // margin: 1.5rem 0 2.1rem 0;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #d9d9d9;
+  }
+}

@@ -1,0 +1,21 @@
+.storesOffer {
+  // margin-top:2rem;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  th {
+    text-transform: capitalize;
+  }
+
+  &__upload-btn {
+    .ant-upload-select button {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      height: 3.3rem;
+    }
+  }
+
+  &__barcode-upload {
+    margin-right: 1rem;
+  }
+}

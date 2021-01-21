@@ -1,0 +1,17 @@
+.chart {
+  margin-top: 4rem;
+  .g2-tooltip {
+    max-height: 30rem;
+    overflow: auto;
+  }
+  .g2-legend {
+    background-color: $color-white-primary;
+    position: unset !important;
+    .g2-legend-list {
+      text-align: left !important;
+      .g2-legend-list-item {
+        margin-right: 1rem;
+      }
+    }
+  }
+}

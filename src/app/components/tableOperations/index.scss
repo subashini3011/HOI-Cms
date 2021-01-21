@@ -1,0 +1,14 @@
+.tableoperationscontainer{
+    padding: 2.2rem 2rem 2.2rem 1.7rem;
+    &__tablename{
+        font-family: $font-name-unisans-regular;
+        font-size: 1.4rem;;
+        color: #707595;
+        text-align: left;
+    }
+    &__tableoperations{
+         display: flex !important;
+         justify-content: flex-end;
+         flex-wrap: wrap;
+    }
+}

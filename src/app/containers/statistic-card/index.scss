@@ -1,0 +1,10 @@
+.statistic-card {
+  min-height: 16.5rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    min-width: 20%;
+    // min-width: 20rem;
+  }
+}

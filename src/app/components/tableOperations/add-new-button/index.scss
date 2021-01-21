@@ -1,0 +1,20 @@
+.table__addrow{
+      display: inline-block;
+         button{
+            height: 2.9rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+            line-height: 3rem;
+            color:#444444 ;
+            background-color: $color-yellow-primary;
+            text-transform: uppercase;
+            border-radius: 2px;
+            // &:hover{
+            //    color:#444444;
+            // }
+            img{
+               margin-bottom: 0.3rem;
+               margin-right: 1rem;
+            }
+         }   
+    }

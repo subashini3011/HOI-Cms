@@ -1,0 +1,41 @@
+.category-list {
+  .ant-upload-list {
+    width: 37rem;
+  }
+  &__table-wrapper {
+    display: flex;
+  }
+  &__left-table {
+    margin-right: 2rem;
+    width: 30%;
+    tr {
+      cursor: pointer;
+    }
+  }
+  &__right-table {
+    width: 70%;
+  }
+  &__table {
+    background-color: $color-white-primary;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-white-primary;
+    letter-spacing: normal;
+    color: #707595;
+    font-family: $font-filename-unisans-regular;
+    padding: 2.2rem 2rem 2.2rem 1.7rem;
+    // margin-bottom: 1rem;
+  }
+  &__title {
+    margin-bottom: 0;
+    margin-right: 2rem;
+  }
+  &__table-actions {
+    display: flex;
+  }
+  &__selected-row {
+    background-color: #ffebbb;
+  }
+}

@@ -1,0 +1,31 @@
+.commontable{
+    &__wrapper{
+     padding: 0 2rem 0 1.9rem;
+    th{
+        font-family: $font-filename-helveticaneue-medium;
+        font-size: $font-size-table-header;
+        font-weight: 500;
+        color: #222222 !important;
+      }
+      td{
+        font-family: $font-filename-helveticaneue-regular;
+        font-size: $font-size-table-data;
+        color: #707595;
+        font-weight: 500;
+      }
+     &__pagination{
+      // opacity: 0.4;
+      font-family: $font-filename-helveticaneue-medium;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #222222;
+          &__text{
+            opacity: 0.6;
+            font-family: $font-filename-helveticaneue-regular;
+            font-size: 1.4rem;
+            color: #707595;
+            margin-left: 0.6rem;
+          }
+     } 
+   }
+}

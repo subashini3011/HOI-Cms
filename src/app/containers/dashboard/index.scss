@@ -1,0 +1,90 @@
+.dd {
+  font-family: $font-name-unisans-regular;
+}
+
+.dashboard {
+  // margin-top: 2rem;
+  // background-color: #ffffff;
+  &__table {
+    padding: 2.5rem 2rem 6.5rem 1.9rem;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    &__header {
+      letter-spacing: normal;
+      color: #707595;
+      font-family: $font-filename-unisans-regular;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      .ant-select-selection {
+        min-height: 2.9rem;
+        height: unset;
+        border-radius: 0.6rem !important;
+      }
+      .ant-select-selection__rendered {
+        line-height: 2.9rem;
+      }
+      &__select {
+        font-size: 1.4rem;
+        &__item {
+          font-size: 1.4rem;
+        }
+      }
+      &__title {
+        margin-bottom: 2rem;
+        text-transform: capitalize;
+      }
+    }
+    .search-dropdown {
+      .ant-select-selection--multiple > ul > li,
+      .ant-select-selection--multiple
+        .ant-select-selection__rendered
+        > ul
+        > li {
+        margin-top: 0.9rem;
+      }
+    }
+
+    th {
+      font-family: $font-filename-helveticaneue-bold;
+      font-size: $font-size-table-header;
+      font-weight: 500;
+      color: #222222;
+    }
+    td {
+      font-family: $font-filename-helveticaneue-regular;
+      font-size: $font-size-table-data;
+      color: #707595;
+    }
+    &__viewbutton {
+      height: 2.9rem;
+      border-radius: 2px;
+      background-color: #eeeef4;
+      float: right;
+      color: #222222;
+      // margin: 1.5rem 0 2.1rem 0;
+      margin-left: 1rem;
+      margin-top: 1rem;
+      &__text {
+        opacity: 0.7;
+        font-family: $font-name-helveticaneue-medium;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    }
+  }
+  &__revenue {
+    min-height: 34.2rem;
+    padding: 2rem;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+  }
+}
+.ant-select-dropdown-menu-item-selected,
+.ant-select-dropdown-menu-item-selected:hover {
+  opacity: 1;
+  background-color: #f3d999;
+  color: #444444;
+}
